@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['alu_foil', 'cat_food_cans', 'clear_plastic', 'coloured_paper', 'corrugated_cardboard', 'food_cans', 'glass', 'hdpe_clear', 'hdpe_color', 'mixed_cardboard_-cww-', 'pet_clear-blue', 'pet_coloured', 'polypropelene', 'polystyrene_-Food trays-', 'polystyrene_-other-', 'tetra-pak', 'thermoforms', 'universal_beverage_cans', 'white_paper', 'wte_-non-recyclable_plastic-']
+
+roboflow:
+  workspace: luh-test
+  project: aniopestra
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/luh-test/aniopestra/dataset/4
